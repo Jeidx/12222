@@ -428,7 +428,6 @@ main{
 }
 .blog-block__list__review-content{
     margin-top: 13px;
-    min-height: 100px;
     overflow: hidden;
     background-color: #fff;
     display: flex;
@@ -1096,9 +1095,9 @@ display: none;
     .log-block__list__main-conten__item{
         margin-right: 5%;
     }
-    .blog-block__list__review-content__title{
-        min-height: 20px;
-    }
+    /* .blog-block__list__review-content__title{
+        max-height: 20px;
+    } */
    
     .blog-block__sidebar__card{
         width: 100%;
