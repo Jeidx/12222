@@ -454,7 +454,11 @@ main{
     }
     .blog-block__list__review-content:hover .log-block__list__review-content__list{
         color: #fff ;
+    }
+    .blog-block__list__review-content:hover .blog-block__list__review-content__title{
+        max-height: 100%;
 }
+
 .review-content__title__unit{
     font-size: 24px;
 }
@@ -463,7 +467,13 @@ main{
     color: #474747;
     overflow: hidden; 
     max-height: 25px;
-
+}
+.blog-block__list__review-content__title a{
+    color: #fff;
+    text-decoration: underline;
+}
+.blog-block__list__review-content__title a:hover{
+    color: #000;
 }
 .log-block__list__review-content__list{
     font-size: 10px;
@@ -1087,8 +1097,9 @@ display: none;
         margin-right: 5%;
     }
     .blog-block__list__review-content__title{
-        height: 22px;
+        min-height: 22px;
     }
+   
     .blog-block__sidebar__card{
         width: 100%;
     }
